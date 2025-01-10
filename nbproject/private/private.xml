@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <data xmlns="http://www.netbeans.org/ns/make-project-private/1">
+        <activeConfTypeElem>0</activeConfTypeElem>
+        <activeConfIndexElem>0</activeConfIndexElem>
+    </data>
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/nfs/ug/homes-0/s/stepano6/mapper_repo/mapper/libstreetmap/src/streetNet.h</file>
+            <file>file:/nfs/ug/homes-0/s/stepano6/mapper_repo/mapper/libstreetmap/src/m4.cpp</file>
+            <file>file:/nfs/ug/homes-0/s/stepano6/mapper_repo/mapper/libstreetmap/src/streetNet.cpp</file>
+        </group>
+    </open-files>
+    <preferences xmlns="http://www.netbeans.org/ns/auxiliary-configuration-preferences/1">
+        <module name="org-netbeans-modules-cnd-discovery">
+            <property name="rootFolder" value="/nfs/ug/homes-0/s/stepano6/mapper_repo/mapper"/>
+        </module>
+    </preferences>
+</project-private>
