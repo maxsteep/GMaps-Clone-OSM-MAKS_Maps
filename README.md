@@ -2,7 +2,7 @@
 
 ## MAKS Maps
 
-This repository showcases a **clean-room implementation** of Google Maps, built in **high-performance C++**, leveraging **binary data from the OpenStreetMap (OSM) project**. Developed entirely independently, this project includes an intuitive and feature-rich UI along with advanced pathfinding and navigation algorithms. It was a comprehensive endeavor that achieved professional-grade polish.
+This repository showcases a **clean-room implementation** of Google Maps, built in **high-performance C++**, leveraging **binary data from the OpenStreetMap (OSM) project**. Developed entirely independently, this project includes an intuitive and feature-rich UI along with advanced pathfinding and navigation algorithms. It was a comprehensive endeavor that achieved professional-grade GIS polish.
 
 ## Features
 
@@ -15,10 +15,8 @@ This repository showcases a **clean-room implementation** of Google Maps, built 
 
 ### Advanced Capabilities
 - **Traveling Salesperson Problem (TSP) Heuristics**: Efficient routing for multi-stop deliveries with custom heuristics.
-- **Real-Time Updates**: Support for live traffic and dynamic recalculations.
 - **Customizable UI**: Intuitive user interface inspired by modern mapping applications.
 - **High-Performance Multithreading**: Parallelized algorithms to handle large-scale data efficiently.
-- **Cross-Platform Compatibility**: Runs seamlessly on Windows, macOS, and Linux.
 
 ## Technical Details
 
@@ -39,7 +37,7 @@ This repository showcases a **clean-room implementation** of Google Maps, built 
   - Binary data preprocessing for OSM data.
 - **Optimization**:
   - Custom memory management to handle large datasets.
-  - SIMD optimizations for computational geometry tasks.
+  - Nanoflann optimizations for computational geometry tasks.
 
 ### Unique Challenges and Solutions
 - Handling **massive datasets** efficiently by preprocessing and storing data in binary formats.
@@ -63,19 +61,7 @@ _Dynamic route computation with seamless updates._
 - Boost Libraries
 - OSM data in binary format that you will have to supply - project ships without the OSM data due licensing contraints
 
-### Building the Project
-```bash
-mkdir build && cd build
-cmake ..
-make
-```
-
-### Running the Application
-```bash
-./maps_application
-```
-
-## Future Work
+## Future Potential Work
 - Integration with real-time traffic APIs.
 - Mobile application support for iOS and Android.
 - Advanced predictive algorithms for user behavior.
