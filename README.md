@@ -47,34 +47,44 @@ This repository showcases a **clean-room implementation** of Google Maps, built 
 ## Showcase
 
 ![Map UI Screenshot](Assets/pin-location.png)
+
 _A fully interactive and feature-complete user interface._
 
 ![Map UI Sidemenu Screenshot](Assets/map_with_POI.png)
+
 _Sidemenu showing POI interface, public transit options, settings and the tasteful name of the product_
 
 ![Map POI Screenshot](Assets/map_with_POI.png)
+
 _Maximum level zoom POI information_
 
 ![Map Coordinates Screenshot](Assets/coordinates.png)
+
 _Full high precision coordinate system support_
 
 ![Map Autocomplete GIF](Assets/autocomplete.gif)
+
 _Autocomplete support, modern UI, shadows, animations_
 
 ![Map MAKS Sidemenu GIF](Assets/maks-sidemenu.gif)
+
 _Sidemenu showing POI interface, public transit options, settings as an animation_
 
 ![Routing Demo](Assets/pin-navigation_visualized.gif)
+
 _Dynamic route computation with seamless updates - demonstrated between arbitrary pin-chosen locations. A* algorithm visualization enabled for demo purposes._
 
 
 ![Map MAKS Zoom Levels GIF](Assets/zoom.gif)
+
 _Real-time animation of zoom levels_
 
 ![Map MAKS Zoom close-up GIF](Assets/zoom-close-slowed.gif)
+
 _Slowed demonstration of close zoom_
 
 ![Map MAKS POI Level Zoom GIF](Assets/POI-level-zoom.gif)
+
 _Slowed demonstration of POI maximum level zoom_
 
 ## How to Build and Run
