@@ -1,5 +1,7 @@
 # High-Performance Google Maps Implementation Using OpenStreetMap Data
 
+## MAKS Maps
+
 This repository showcases a **clean-room implementation** of Google Maps, built in **high-performance C++**, leveraging **binary data from the OpenStreetMap (OSM) project**. Developed entirely independently, this project includes an intuitive and feature-rich UI along with advanced pathfinding and navigation algorithms. It was a comprehensive endeavor that achieved professional-grade polish.
 
 ## Features
