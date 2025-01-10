@@ -61,7 +61,7 @@ _Full high precision coordinate system support_
 ![Map Autocomplete GIF](Assets/autocomplete.gif)
 _Autocomplete support, modern UI, shadows, animations_
 
-![Map MAKS Sidemenu GIF](Assets/autocomplete.gif)
+![Map MAKS Sidemenu GIF](Assets/maks-sidemenu.gif)
 _Sidemenu showing POI interface, public transit options, settings as an animation_
 
 ![Routing Demo](Assets/pin-navigation_visualized.gif)
