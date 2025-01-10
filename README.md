@@ -46,20 +46,57 @@ This repository showcases a **clean-room implementation** of Google Maps, built 
 
 ## Showcase
 
-![Map UI Screenshot](screenshot.png)
+![Map UI Screenshot](Assets/pin-location.png)
 _A fully interactive and feature-complete user interface._
 
-![Routing Demo](routing_demo.gif)
-_Dynamic route computation with seamless updates._
+![Map UI Sidemenu Screenshot](Assets/map_with_POI.png)
+_Sidemenu showing POI interface, public transit options, settings and the tasteful name of the product_
+
+![Map POI Screenshot](Assets/map_with_POI.png)
+_Maximum level zoom POI information_
+
+![Map Coordinates Screenshot](Assets/coordinates.png)
+_Full high precision coordinate system support_
+
+![Map Autocomplete GIF](Assets/autocomplete.gif)
+_Autocomplete support, modern UI, shadows, animations_
+
+![Map MAKS Sidemenu GIF](Assets/autocomplete.gif)
+_Sidemenu showing POI interface, public transit options, settings as an animation_
+
+![Routing Demo](Assets/pin-navigation_visualized.gif)
+_Dynamic route computation with seamless updates - demonstrated between arbitrary pin-chosen locations. A* algorithm visualization enabled for demo purposes._
+
+
+![Map MAKS Zoom Levels GIF](Assets/zoom.gif)
+_Real-time animation of zoom levels_
+
+![Map MAKS Zoom close-up GIF](Assets/zoom-close-slowed.gif)
+_Slowed demonstration of close zoom_
+
+![Map MAKS POI Level Zoom GIF](Assets/POI-level-zoom.gif)
+_Slowed demonstration of POI maximum level zoom_
 
 ## How to Build and Run
 
+This project builds a Linux executable named `mapper` using a provided `Makefile`.
+
 ### Prerequisites
-- **C++ Compiler**: GCC 9.0+ or MSVC 2019+
-- **CMake**: Version 3.15 or higher
-- **Qt**: Version 5.15 or higher
-- Boost Libraries
-- OSM data in binary format that you will have to supply - project ships without the OSM data due licensing contraints
+
+-   GCC 9.0+ or MSVC 2019+
+-   CMake 3.15+
+-   Make
+-   Qt 5.15+
+-   Boost Libraries
+-   OSM data in binary format (you must provide this separately due to licensing).
+
+### Build Instructions
+
+1.  **Clone:** `git clone <your-repo-url>` and `cd` into the directory.
+2.  **Build:** Run `make` in the project root (where the `Makefile` is).
+3.  **Run:** Execute `./mapper`, ensuring your OSM binary data is in the correct location.
+
+**Note:** You may need to adjust library paths if you encounter build errors. If the application has issues loading, ensure your OSM data is correctly formatted. Refer to the full README for more detailed instructions.
 
 ## Future Potential Work
 - Integration with real-time traffic APIs.
