@@ -2,7 +2,7 @@
 
 ## MAKS Maps
 
-This repository showcases a **clean-room implementation** of Google Maps, built in **high-performance C++**, leveraging **binary data from the OpenStreetMap (OSM) project**. Developed independently, this project includes an intuitive and feature-rich UI along with advanced pathfinding and navigation algorithms. It was a comprehensive endeavor that achieved professional-grade GIS polish.
+This repository showcases a **clean-room implementation** of Google Maps, built in **high-performance C++**, leveraging **binary data from the OpenStreetMap (OSM) project**. This project includes an intuitive and feature-rich UI along with advanced pathfinding and navigation algorithms. It was a comprehensive endeavor that achieved professional-grade GIS polish.
 
 ## Features
 
